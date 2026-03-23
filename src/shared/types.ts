@@ -1,4 +1,4 @@
-import type { ReactElement } from "react";
+import type { ReactNode } from "react";
 
 export enum SelectedPage {
   Home = "home",
@@ -8,7 +8,7 @@ export enum SelectedPage {
 }
 
 export interface BenefitType {
-  icon: ReactElement;
+  icon: ReactNode;
   title: string;
   description: string;
 }
